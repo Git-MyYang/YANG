@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: calc(100vw / 375 * 10);
+}
+
+body {
+  font-size: 14px;
+}
+
+.BOX {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+}
+
+header .boxlb {
+  width: 500%;
+  display: flex;
+  overflow: hidden;
+}
+
+header .boxlb p img {
+  width: 37.5rem;
+  height: 20rem;
+}
+
+.BOX1 {
+  width: 100%;
+  padding: 1rem;
+  flex-shrink: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BOX1 dl {
+  width: 5rem;
+  height: 3.2rem;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.BOX1 dt {
+  display: flex;
+  justify-content: center;
+}
+
+.BOX1 dl dt img {
+  width: 2rem;
+}
+
+.BOX1 dl dd {
+  font-size: 1.2rem;
+  color: #E3DFD4;
+}
+
+.BOX1 i img {
+  width: 2.2rem;
+  margin-left: 1rem;
+}
+
+.BOX1 p img {
+  width: 1.8rem;
+}
+
+.box1 {
+  width: 25.4rem;
+  height: 3rem;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 1.5rem;
+}
+
+.box1 p:nth-child(2) {
+  margin-left: -4rem;
+  font-size: 1.2rem;
+  color: #ADADAD;
+}
+
+.lbt {
+  width: 9rem;
+  height: .2rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: calc(50% - 4.5rem);
+  top: 18rem;
+}
+
+.lbt li {
+  width: .8rem;
+  height: .2rem;
+  background: #ADADAD;
+}
+
+.lbt li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.lbt li:hover a {
+  margin-top: -.3rem;
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  border: #000000 .5rem solid;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: #F6F6F6;
+}
+
+.BOX2 {
+  width: 37.5rem;
+  height: 16.2rem;
+}
+
+.box2 {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.box2 dl {
+  width: 4.8rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 img {
+  width: 4.1rem;
+  margin: 0 auto;
+}
+
+.box2 dd {
+  width: 4.8rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 dd a {
+  font-size: 1.2rem;
+  color: #ADADAD;
+}
+
+.box3 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.box3 dl {
+  width: 4.8rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 img {
+  width: 4.1rem;
+  margin: 0 auto;
+}
+
+.box3 dd {
+  width: 4.8rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 dd a {
+  font-size: 1.2rem;
+  color: #ADADAD;
+}
+
+.box3 .lbt2 {
+  width: 3rem;
+  height: .6rem;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  left: calc(50% - 1.5rem);
+  top: 7rem;
+}
+
+.box3 .lbt2 li {
+  width: .6rem;
+  height: .6rem;
+  margin: 0 .4rem;
+  border-radius: 50%;
+  background: #999999;
+}
+
+.box3 .lbt2 li:hover {
+  background: #000000;
+}
+
+.BOX3 {
+  width: 35.4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.BOX3 p:nth-child(1) {
+  display: flex;
+}
+
+.BOX3 p:nth-child(1) img {
+  width: 3.2rem;
+  height: 1.5rem;
+}
+
+.BOX3 p {
+  font-size: 1.4rem;
+}
+
+.BOX4 {
+  width: 100%;
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 2.8rem;
+}
+
+.BOX4 .jdms {
+  width: 22rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.BOX4 .jdms p {
+  padding-right: 1rem;
+  font-size: 1.4rem;
+}
+
+.BOX4 .jdms p:nth-child(1) img {
+  width: 1.6rem;
+}
+
+.BOX4 .jdms p:nth-child(2) {
+  font-size: 1.4rem;
+  color: #B43C48;
+}
+
+.BOX4 .jdms p:nth-child(3) {
+  font-size: 1.4rem;
+}
+
+.BOX4 .jdms p:nth-child(4) img {
+  width: 6rem;
+}
+
+.BOX4 .ckgd {
+  width: 8.5rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.BOX4 .ckgd span {
+  display: flex;
+  font-size: 1.4rem;
+  color: #B43C48;
+  padding-right: 1rem;
+}
+
+.BOX4 .ckgd p img {
+  width: 1.2rem;
+}
+
+.box4lf {
+  background: #FFFFFF;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4lf dl {
+  width: 5rem;
+}
+
+.box4lf dl dt img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.box4lf dl dd {
+  font-size: 1.4rem;
+  color: #B43C48;
+}
+
+.sy {
+  width: 100%;
+  height: 5.4rem;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.sy dl {
+  height: 3.8rem;
+  width: 2.4rem;
+}
+
+.sy dl img {
+  width: 2.4rem;
+}
+
+.sy dl dd {
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+}

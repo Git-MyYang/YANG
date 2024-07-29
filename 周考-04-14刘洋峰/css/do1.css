@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* .BOX{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    margin: 100px auto;
+    background-color: thistle;
+}
+.BOX .codeBox{
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.BOX .codeBtn{
+    background-color:cornflowerblue;
+    border: none;
+    padding: 0 10px;
+}  */
+
+
+
+/* 作业2 */
+
+/* .draw{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 200px auto;
+    background-color: #a3aec2;
+}
+.draw .drawName{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "楷体";
+}
+.draw .starDraw{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: pink;
+    border: none;
+    font-size: 18px;
+    font-family: "楷体";
+    font-weight: 900;
+}  */
+
+/* 作业3 */
+/*  
+.BOX{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 50px auto;
+    background-color:#aeb9c2;
+}
+.BOX .draw{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "楷体";
+    font-weight: 900;
+    background-color: aliceblue;
+}
+.BOX .drawsOne{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.BOX .drawsOne div{
+    
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    font-family: "楷体";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+.BOX .drawsTow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.BOX .drawsTow .drawKS{
+    width: 150px;
+    height: 100px;
+}
+.BOX .drawsTow div{
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    font-family: "楷体";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+.BOX .drawsThree{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.BOX .drawsThree div{
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    font-family: "楷体";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aquamarine;
+ } */
+
+
+/* 作业四 */
+/* .BOX{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: #c0c7ce;
+}
+.BOX div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.BOX .NameBox li{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    margin: 10px auto;
+    align-content: center;
+    justify-content: center;
+    background-color: pink;
+}
+.BOX .starBtn{
+    width: 120px;
+    height: 60px;
+    border: none;
+    margin: 15px 60px 0 80px;
+    border-radius: 20px;
+    
+}
+.BOX .stopBtn{
+    width: 120px;
+    height: 60px;
+    border: none;
+    margin: 15px 60px 0 100px;
+    border-radius: 20px;
+} */
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #2D2C41;
+}
+.BOX{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 200px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    overflow: hidden;
+}
+.BOX div{
+    width: 100%;
+    height: 25%;
+    border-bottom: #CCCCCC 1px solid;
+    line-height: 74px;
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4D4D4D;
+    background: url(../img/染色笔.png) no-repeat 20px 20px;
+    /* background: url(../img/下箭头.png) no-repeat 300px 20px; */
+}
+.BOX div:nth-child(4){
+    border: none;
+}
+.BOX .minBOX{
+    border: none;
+    background-image: none;
+    color: #fff;
+    padding:0;
+}
+.BOX .minBOX p{
+    padding-left: 70px;
+}
+.BOX .minBOX p:hover{
+    background-color: #B63B4D;
+}

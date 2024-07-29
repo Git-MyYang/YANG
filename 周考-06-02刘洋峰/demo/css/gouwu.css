@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+html{
+    font-size: calc(100vw / 375 * 10);
+}
+.BOX{
+    width: 37.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 15vw;
+    line-height: 15vw;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-shrink: 0;
+    background-color: #ccc;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+}
+header p{
+    height: 15vw;
+    margin: 0 2rem;
+    border-bottom: .2rem solid #FB763A;
+    
+}
+.nav1{
+    color: #FB763A;
+}
+.nav2{
+    border: none;
+}
+main{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.main{
+    /* height: 55rem; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* background-color: #2e2d2d; */
+    /* display: none; */
+}
+.main dl{
+    width: 33.33%;
+    height: 20rem;
+    padding: .5rem;
+    border: .1rem solid #e3e0e0;
+}
+.main dl dt{
+    text-align: center;
+}
+.main dl dt img{
+    width: 12rem;
+}
+.main dl dd{
+    padding: 0 1rem;
+}
+.main dl dd p{
+    /* text-align: center; */
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.dd1{
+    margin-top: 1rem;
+
+}
+.main dl dd img{
+    width: 1.4rem;
+    border: .1rem solid #FB763A;
+}
+.monneyed{
+    text-decoration: line-through;
+    color: #979797;
+}
+.monney{
+    color: #FB763A;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    flex-shrink: 0;
+    height: 15vw;
+    /* line-height: 15vw; */
+    font-size: 2rem;
+    font-family: "楷体";
+    padding: 0 1rem;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+footer dl{
+    text-align: center;
+}
+footer dt{
+    pointer-events: none;
+}
+footer dt img{
+    width: 3.5rem;
+}
+footer dd{
+    font-size: 1.4rem;
+    pointer-events: none;
+}
+.active{
+    color: #FB763A;
+}
+.activeEnd{
+    color: #FB763A;
+}
+
+.car{
+    width: 37.5rem;
+    /* height: 80%; */
+    background-color: #F6F6F5;
+    /* display: flex; */
+    display: none;
+}
+.info{
+    width: 37.5rem;
+    height: 6rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.info p{
+    color: #888888;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+.tobox{
+    margin-top: 2rem;
+    /* background-color: #fff; */
+    width: 37.5rem;
+
+}
+.carNav{
+    display: flex;
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: #979797;
+    background-color: #fff;
+}
+.carNav input{
+    margin-right: 2rem;
+}
+.tobox ul{
+    margin-top: .2rem;
+    width: 37.5rem;
+}
+.tobox ul li{
+    width: 37.5rem;
+    height: 6rem;
+    background-color: #fff;
+    margin-top: .1rem;
+    display: flex;
+    position: relative;
+
+}
+.tobox ul li div{
+    display: flex;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-top: 2rem;
+    
+    width: 80%;
+    height: 4rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+.tobox ul li p{
+    margin-bottom: .5rem;
+    margin-right: 1rem;
+}
+.fr{
+    /* width: 10rem; */
+    display: flex;
+    position: absolute;
+    float: right;
+    left: 70%;
+
+}
+.fr img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 .8rem;
+    border: #FB763A .1rem solid;
+}
+.xiaoxi{
+    /* width: 37.5rem; */
+    height:4rem;
+    font-size: 1.2rem;
+    background-color: #FEF6E8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    
+}
+.xiaoxi span{
+    width: 28rem;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    height: 1.8rem;
+    overflow: hidden;
+}
+.xiaoxi i{
+    margin-top: 1.2rem;
+    color: #FB763A;
+}
+.carEnd{
+    width: 37.5rem;
+    height: 6rem;
+    padding: 1rem;
+    position: relative;
+}
+.col{
+    font-size: 1.6rem;
+    font-weight: 550;
+    margin-bottom: .5rem;
+    color: #FB763A;
+}
+.xuan{
+    position: absolute;
+    top: 10%;
+    right: 1rem;
+    font-size: 1.4rem;
+    padding: 1.5rem 3rem;
+    border-radius: .8rem;
+    color: #fff;
+    background-color: #FB763A;
+}

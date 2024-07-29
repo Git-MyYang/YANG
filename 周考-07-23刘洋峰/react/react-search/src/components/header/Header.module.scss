@@ -1,0 +1,36 @@
+.Header{
+    height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    background-color: tomato;
+    .input{
+        background-color: #fff;
+        flex: 1;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+        input{
+            flex: 1;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+        }
+        span{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .del{
+        font-size: 14px;
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #eee;
+    }
+}

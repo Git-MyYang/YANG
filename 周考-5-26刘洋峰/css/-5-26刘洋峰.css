@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+}
+html{
+    font-size: calc(100vw / 375 * 10);
+}
+img{
+    vertical-align: middle;
+}
+.BOX{
+    width: 100%;
+    height: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+}
+header{
+    padding: 2rem 2rem 0;
+    width: 37.5rem;
+    flex-shrink: 0;
+    margin-bottom: .2rem;
+    background-color: #fff;
+}
+.headName{
+    font-size: 1.6rem;
+}
+.search{
+    width: 33rem;
+    height: 5rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #EFEFEF;
+    color: #BCBCBC;
+    
+}
+
+main{
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #fff;
+    display: flex;
+}
+.lefts{
+    width: 10rem;
+    background-color: #EFEFEF;
+}
+.lefts ul li{
+    width: 10rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+/* .lefts ul li:nth-child(1){
+    background-color: #fff;
+} */
+/* .lefts ul li:hover{
+    background-color: #fff;
+} */
+.Right{
+   
+    padding: 2rem 2rem 2rem 0;
+}
+.left1 , .left2, .left3{
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.left1 dl, .left2 dl, .left3 dl{
+    margin: 1rem 1rem 1rem 1.5rem;
+    /* margin: 0  0  0 2rem; */
+    /* pointer-events: none; */
+}
+.left1 img, .left2 img, .left3 img{
+    width: 6rem;
+    pointer-events: none;
+}
+.left1 dl dt, .left2 dl dt, .left3 dl dt{
+    pointer-events: none;
+
+}
+.left2{
+    display: none;
+}
+.left3{
+    display: none;
+}
+footer{
+    flex-shrink: 0;
+    width: 37.5rem;
+    margin-top: .2rem;
+    background-color: #fff;
+    display: none;
+}
+.endName{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.endName span{
+    font-size: 1.6rem;
+}
+.endName button{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #F53B47;
+}
+.endBOX{
+    width: 37.5rem;
+    padding: 2rem;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+}
+.list li{
+    width: 8rem;
+    height: 3rem;
+    border: .1rem solid #F0F0F0;
+    margin: 0 2rem 1rem 0;
+    display: flex;
+    line-height: 3rem;
+    justify-content: center;
+    position: relative;
+}
+.list li span{
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    font-size: 1rem;
+}
+
+.headName{
+    font-size: 1.6rem;
+}
+.BOX2{
+    display: none;
+}
+.BOX2 .navName{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+}
+.BOX2 .navName dl{
+    padding: 1rem;
+}
+.BOX2 .navName dl dd{
+    pointer-events: none;
+    
+}
+.BOX2 .navName dl:hover{
+    background-color: #d63a13;
+}
+.BOX3{
+    display: none;
+}
+.BOX3 .h4{
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-align: center;
+    color: #EA8F00;
+}
+.BOX3 dl{
+    padding-top: 2rem;
+    margin: 0 1rem;
+    background-color: #fff;
+}
+.BOX3 dl > li{
+    padding: 0 2rem 2rem 2rem;
+}
+.BOX3 > dl > li > img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.BOX3 > dl > li > span{
+    font-weight: 900;
+}
+
+.BOX4{
+    display: none;
+}
+.BOX4 .B4h4{
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-align: center;
+    color: #00ea00;
+}
+.BOX4 dl{
+    padding-top: 2rem;
+    margin: 0 1rem;
+    background-color: #fff;
+}
+.BOX4 dl > li{
+    padding: 0 2rem 2rem 2rem;
+}
+.BOX4 > dl > li > img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.BOX4 > dl > li > span{
+    font-weight: 900;
+}
+.BOX5{
+    display: none;
+}
+.BOX5 .B5h4{
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-align: center;
+    color: #d63a13;
+}
+.BOX5 dl{
+    padding-top: 2rem;
+    margin: 0 1rem;
+    background-color: #fff;
+}
+.BOX5 dl > li{
+    padding: 0 2rem 2rem 2rem;
+    
+}
+.BOX5 > dl > li > img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.BOX5 > dl > li > span{
+    font-weight: 900;
+}
+.active{
+    background-color: #ffffff;
+}
+.border{
+    /* background-color: #F53B47; */
+    outline: .2rem solid #F53B47;
+}

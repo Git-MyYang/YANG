@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #C9CAB5; */
+}
+.BOX{
+    width: 1200px;
+    height: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #cad3db;
+    border: 1px solid #000000;
+    /* display: none; */
+    position: relative;
+}
+.prevBOX{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    line-height: 40px;
+    padding: 30px 10px 30px 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #bebdbd;
+
+}
+.prevBOX .inpName{
+    padding: 0 10px;
+    margin: 0 30px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #DFDFDF;
+    outline: #80BDFF;
+    box-shadow: 0 0 8px #BFDEFF;
+    color: #3EA2EE;
+}
+.prevBOX .inqBtn{
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    color: #fff;
+    background-color: #3EA2EE;
+}
+.prevBOX .resBtn{
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #3EA2EE;
+}
+.prevBOX .resBtn:hover,.inqBtn:hover{
+    background-color: #0069D9;
+}
+.nextBOX{
+    width: 1155px;
+    display: flex;
+    flex-direction: column;
+}
+.nextBOX .addBtn{
+    width: 100px;
+    height: 32px;
+    color: #51ABF0;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nextBOX .addBtn:hover{
+    color: #3EA2EE;
+}
+.nextBOX .addBtn img{
+    width: 14px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.nextBOX .navList{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e4e8ee;
+    border-bottom: 1px solid #bebdbd;
+    border-top: 1px solid #bebdbd;;
+}
+.nextBOX .navList li{
+    color: #595E66;
+    font-weight: 900;
+    font-size: 14px;
+    width: 165px;
+    text-align: center;
+}
+.nextBOX .infoList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F5F7FA;
+    border-bottom: 1px solid #bebdbd;
+}
+.nextBOX .infoList:hover{
+    background-color: #E4E8EE;
+}
+.nextBOX .infoList li{
+    width: 165px;
+    color: #61666E;
+    font-size: 12px;
+    text-align: center;
+}
+.nextBOX .infoList li a{
+    color: #479EFF;
+    margin: 0 5px;
+}
+.nextBOX .infoList li a:hover{
+    text-decoration: underline;
+    color: #0056B3;
+}
+
+.BOX2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* pointer-events: none; */
+    background-color: rgb(116, 116, 116, 0.5);
+    display: none;
+
+}
+.navAdd{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navAdd span{
+    font-size: 18px;
+    color: #4BA0EE;
+}
+.navAdd span:hover{
+    cursor: pointer;
+}
+.addBOX{
+    width: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BOX2 .addBOX > div{
+    width: 50%;
+    height: 52px;
+    border-bottom: 1px solid #cacaca !important;
+    display: flex;
+    z-index: 9;
+}
+.addBOX div p{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F4F6FA;
+}
+.addBOX div p i{
+    font-size: 10px;
+    color: red;
+}
+.addBOX div span , .addBOX div > div{
+    flex: 1;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 10px;
+
+}
+.addBOX div span input , .addBOX div > div select{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    margin: 0 auto ;
+}
+
+
+
+
+.objBtn{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    margin: 0 auto ;
+}
+.objBtn button{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #7997B2;
+}
+.mengceng{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(116, 116, 116, 0.5);
+    display: none;
+}

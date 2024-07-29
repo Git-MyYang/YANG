@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.BOX{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    margin: 100px auto;
+    padding: 5px 30px;
+    /* text-align: center; */
+    background-color: #bdb3b4;
+}
+.nameBox{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    /* align-content: center; */
+    margin-top: 50px;
+    background-color: #A0C5E8;
+}
+.nameBox span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+.nameBox input{
+    flex: 1;
+    outline: 0;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+.pwdBox{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    background-color: #A0C5E8;
+}
+.pwdBox span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+.pwdBox input{
+    flex: 1;
+    outline: 0;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+.yzmBox{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    background-color: #A0C5E8;
+}
+.yzmBox span:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+.yzmBox span:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+    background-color:yellow;
+}
+.yzmBox span:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.yzmBox input{
+    width: 100px;
+    flex: 1;
+    outline: 0;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+.btnBox{
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-between;
+}
+.btnBox button{
+    width: 80px;
+    height: 30px;
+}
+.btnBox button:nth-child(3){
+    background: none;
+    outline: none;
+    border: none;
+}

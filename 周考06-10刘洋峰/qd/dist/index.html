@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    
+    
+    <div class="flo" style="display: none;">
+        <div class="left"></div>
+        <div class="right">
+            <div class="fr1">
+                <img src="./img/错号.png" alt="" class="ch">
+                <p>添加学生</p>
+            </div>
+            
+            <div class="fr2">
+                <ul>
+                    <li>姓名</li>
+                    <li><input type="text" placeholder="请输入姓名"></li>
+                </ul>
+                
+                <ul>
+                    <li>性别</li>
+                    <li><select>
+                        <option value="" style="display: none;">请选择</option>
+                        <option value="option1">男</option>
+                        <option value="option2">女</option>
+                    </select></li>
+                </ul>
+                
+                <ul>
+                    <li>年龄</li>
+                    <li><input type="text" placeholder="请输入..."></li>
+                </ul>
+    
+                <ul>
+                    <li>身份证号</li>
+                    <li><input type="text" placeholder="请输入身份证号"></li>
+                </ul>
+    
+                <ul>
+                    <li>邮箱</li>
+                    <li><input type="text" placeholder="请输入邮箱"></li>
+                </ul>
+    
+                <ul>
+                    <li>班级名称</li>
+                    <li><select>
+                        <option value="" style="display: none;">请选择</option>
+                        <option value="option1">人才班</option>
+                        <option value="option2">卓越班</option>
+                        <option value="option3">初级班</option>
+                        <option value="option4">中级班</option>
+                        <option value="option5">高级班</option>
+                        
+                    </select></li>
+                </ul>
+
+            </div>
+
+            <div class="fr3">
+                <button class="fr1Btn">取消</button><button class="fr2Btn">确认</button>
+            </div>
+
+        </div>
+    </div>
+    
+
+    
+    <div class="BOX">    
+
+        <header>
+            <div class="navfl">姓名: <input type="text" placeholder="请输入"></div>
+            <div class="navin">性别: 
+                <select>
+                    <option value="" style="display: none;">请选择</option>
+                    <option value="option1">男</option>
+                    <option value="option2">女</option>
+                </select>
+            </div>
+            <div class="navfr">
+                <button class="czBtn">重置</button>
+                <button class="cxBtn">查询</button>
+                <div class="zk" style="display: none;">展开<img src="./img/向下箭头.png" alt=""></div>
+                <div class="sq">收起<img src="./img/向上箭头.png" alt=""></div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main">
+                <div class="tabAdd">
+                    <button class="infoAdd">+ &nbsp;添加学生</button>
+                    <img src="./img/更多.png" alt="">
+                    <img src="./img/更多.png" alt="">
+                    <img src="./img/更多.png" alt="">
+                </div>
+                <ol>
+                    <li>排序</li>
+                    <li>姓名</li>
+                    <li>性别</li>
+                    <li>年龄</li>
+                    <li>班级</li>
+                    <li>创建时间</li>
+                    <li>操作</li>
+                </ol>
+
+                <div class="mainInfo">
+                    <!-- <ul>
+                        <li>1</li>
+                        <li>李白</li>
+                        <li>男</li>
+                        <li>66</li>
+                        <li>顶级诗仙</li>
+                        <li>2023-06-10</li>
+                        <li class="redact">编辑</li>
+                        <li class="redacted" style="display: none;"><span>保存</span><span>删除</span><span class = "off">取消</span></li>
+                    </ul>
+    
+                    <ul>
+                        <li>1</li>
+                        <li>李白</li>
+                        <li>男</li>
+                        <li>66</li>
+                        <li>顶级诗仙</li>
+                        <li>2023-06-10</li>
+                        <li class="redact">编辑</li>
+                        <li class="redacted" style="display: none;"><span>保存</span><span>删除</span><span>取消</span></li>
+                    </ul>
+    
+                    <ul>
+                        <li>1</li>
+                        <li>李白</li>
+                        <li>男</li>
+                        <li>66</li>
+                        <li>顶级诗仙</li>
+                        <li>2023-06-10</li>
+                        <li class="redact">编辑</li>
+                        <li class="redacted" style="display: none;"><span>保存</span><span>删除</span><span>取消</span></li>
+                    </ul> -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            第<span class="infoLook">1-5</span>条/总共<span class="infos">10</span>条
+            <div class="end">
+                <img src="./img/向左箭头.png" alt="" class="prve">
+                <ul>
+                    <li class="active end1">1</li>
+                    <li class="end2">2</li>
+                </ul>
+                <img src="./img/向右箭头.png" alt="" class="next">
+            </div>
+        </footer>
+    </div>
+
+
+   
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

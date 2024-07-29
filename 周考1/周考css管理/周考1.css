@@ -1,0 +1,47 @@
+ *{
+    /* padding: 0;
+    margin:0; */
+    list-style: none;
+    text-decoration: none;
+}  
+
+.biaodan .zhuce input:hover{
+    background: red;
+}
+.biaodan{
+    
+    border-bottom: 2px solid darkgray;
+}
+.img p{
+    background-image: url(../周考img管理/1.png);
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+    
+    
+}
+
+.biaoti li{
+    float: left;
+}
+.biaoti li a:nth-child(1){
+    color: blue;
+    text-decoration: underline;
+}
+.olo{
+    width: 800px;
+}
+.olo1{
+    text-decoration: line-through;
+}
+.olo2{
+    width: 695px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.olo2 h4{
+    margin-bottom: 0;
+}
+.olo2 span{
+    color: red;
+}

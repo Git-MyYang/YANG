@@ -1,0 +1,95 @@
+[
+    {
+        "zuo1" : 
+        [
+            {
+                "user" : "米皮",
+                "img"  : "./img/米皮.png"
+            },
+            {
+                "user" : "大米",
+                "img"  : "./img/大米.png"
+            },
+            {
+                "user" : "油面筋",
+                "img"  : "./img/油面筋.png"
+        
+            },
+            {
+                "user" : "米皮",
+                "img"  : "./img/米皮.png"
+            },
+            {
+                "user" : "大米",
+                "img"  : "./img/大米.png"
+            },
+            {
+                "user" : "油面筋",
+                "img"  : "./img/油面筋.png"
+            }
+            
+        ],
+
+        "zuo2" : 
+            [
+                {
+                    "user" : "豆腐",
+                    "img"  : "./img/豆腐.png"
+                },
+                {
+                    "user" : "豆浆",
+                    "img"  : "./img/豆浆.png"
+                },
+                {
+                    "user" : "豆腐脑",
+                    "img"  : "./img/豆腐脑.png"
+            
+                },
+                {
+                    "user" : "豆腐",
+                    "img"  : "./img/豆腐.png"
+                },
+                {
+                    "user" : "豆浆",
+                    "img"  : "./img/豆浆.png"
+                },
+                {
+                    "user" : "豆腐脑",
+                    "img"  : "./img/豆腐脑.png"
+            
+                }
+            ],
+
+        "zuo3" : 
+            [
+                {
+                    "user" : "茴香",
+                    "img"  : "./img/茴香.png"
+                },
+                {
+                    "user" : "鸡毛菜",
+                    "img"  : "./img/鸡毛菜.png"
+                },
+                {
+                    "user" : "甘薯叶",
+                    "img"  : "./img/甘薯叶.png"
+            
+                },
+                {
+                    "user" : "茴香",
+                    "img"  : "./img/茴香.png"
+                },
+                {
+                    "user" : "鸡毛菜",
+                    "img"  : "./img/鸡毛菜.png"
+                },
+                {
+                    "user" : "甘薯叶",
+                    "img"  : "./img/甘薯叶.png"
+            
+                }
+                
+            ]
+        
+    }
+]
